@@ -43,4 +43,7 @@ Also note that on some (older) kernel versions, you might get very erratic and v
   <tr>
     <td>Beaglebone Black</td><td>300mhz</td><td>3.8.12-bone17</td><td>1024 passes, avg. 14449 nsecs</td>
   </tr>
+  <tr>
+    <td>Raspberry Pi 4 B</td><td>1.5GHz</td><td>5.15.32-v7l+</td><td>1024 passes, avg. 4732 nsecs, dev. 2385 nsecs</td>
+  </tr>
 </table>

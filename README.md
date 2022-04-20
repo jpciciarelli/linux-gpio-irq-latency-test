@@ -24,26 +24,13 @@ Also note that on some (older) kernel versions, you might get very erratic and v
 
 ## Measurements
 
-<table>
-  <tr>
-    <th>board</th><th>CPU speed</th><th>kernel</th><th>results</th>
-  </tr>
-  <tr>
-    <td>Raspberry Pi</td><td>700mhz</td><td>3.6.11+</td><td>1024 passes. avg.  3770 nsecs</td>
-  </tr>
-  <tr>
-    <td>Beaglebone Black</td><td>1000mhz</td><td>3.8.12-bone17</td><td>1024 passes, avg.  4957 nsecs</td>
-  </tr>
-  <tr>
-    <td>Beaglebone</td><td>600mhz</td><td>3.2.21-psp15</td><td>1024 passes, avg.  7625 nsecs</td>
-  </tr>
-  <tr>
-    <td>Beaglebone</td><td>500mhz</td><td>3.2.21-psp15</td><td>1024 passes, avg.  8699 nsecs</td>
-  </tr>
-  <tr>
-    <td>Beaglebone Black</td><td>300mhz</td><td>3.8.12-bone17</td><td>1024 passes, avg. 14449 nsecs</td>
-  </tr>
-  <tr>
-    <td>Raspberry Pi 4 B</td><td>1.5GHz</td><td>5.15.32-v7l+</td><td>1024 passes, avg. 4732 nsecs, dev. 2385 nsecs</td>
-  </tr>
-</table>
+| board            | CPU speed | kernel        | results                                     |
+|------------------|-----------|---------------|---------------------------------------------|
+| Raspberry Pi     | 700MHz    | 3.6.11+       | 1024 passes. avg. 3770 nsecs                |
+| Beaglebone Black | 1000MHz   | 3.8.12-bone17 | 1024 passes, avg. 4957 nsecs                |
+| Beaglebone       | 600MHz    | 3.2.21-psp15  | 1024 passes, avg. 7625 nsecs                |
+| Beaglebone       | 500MHz    | 3.2.21-psp15  | 1024 passes, avg. 8699 nsecs                |
+| Beaglebone Black | 300MHz    | 3.8.12-bone17 | 1024 passes, avg. 14449 nsecs               |
+| Raspberry Pi 4B* | 1.5GHz    | 5.15.32-v8+   | 1024 passes, avg. 1942 nsecs, dev. 82 nsecs |
+
+*: Raspberry Pi OS Lite (64-bit). Scaling governor on performance.
